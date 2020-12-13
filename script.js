@@ -69,6 +69,7 @@ function criteria () {
     }
 }
 
+//This function is to create a "possible" password, before it has been checked to see if it meets all the criteria. That will be done in the"generatePassword" function.
 function generatePossiblePassword() {
   var returnValue = "";
   numberSelected = false;
@@ -96,6 +97,7 @@ function generatePossiblePassword() {
     return returnValue;
 }
 
+//This function takes the "possible" password created by the "generatePossiblePasword" function and checks it to make sure all the criteria selected by the user have been met.
 function generatePassword() {
   var pass = false;
   var returnValue = "";
@@ -127,4 +129,5 @@ generateBtn.addEventListener("click", writePassword);
 
 resetBtn.addEventListener("click", criteria);
 
+//Calling the function here so the page loads up first, before all the prompts show
 criteria();
