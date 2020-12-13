@@ -17,6 +17,8 @@ var specialArray = ["\"", "`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(",
 //This array is used to generate array assignments: 0 = Numbers, 1 = Upper Case, 2 = Special Character, 3 = Lower Case
 var generateArray = [0, 1, 2, 3];
 
+
+//Button that show on the HTML page
 var generateBtn = document.querySelector("#generate");
 var resetBtn = document.querySelector("#reset");
 
@@ -24,7 +26,7 @@ var resetBtn = document.querySelector("#reset");
 //Criteria function will be called at the end in order to have the code load (html and js) before seeing prompts
 function criteria () {
 
-  //Prompt user is they want to include numbers in the password
+  //Prompt user is they want to include numbers in the password, default answer set to Y
   charNumber = prompt("Would you like to include NUMBERS in your new ultra-secure password? Type in Y or N", "Y");
   console.log(promptAnswer.includes(charNumber))
   while (!promptAnswer.includes(charNumber.toLowerCase())) {
@@ -33,7 +35,7 @@ function criteria () {
       //console.log(charNumber.toLowerCase());
     }
 
-  //Prompt user if they want to include special characters in the password
+  //Prompt user if they want to include special characters in the password, default answer set to Y
   charSpecial = prompt("Would you like to include SPECIAL characters in your new ultra-secure password? Type in Y or N", "Y");
   console.log(promptAnswer.includes(charSpecial))
   while (!promptAnswer.includes(charSpecial.toLowerCase())) {
@@ -42,7 +44,7 @@ function criteria () {
       //console.log(charSpecial.toLowerCase());
     }
 
-  //Prompt user if the want to include capital letters in the password
+  //Prompt user if the want to include capital letters in the password, default answer set to Y
   charCapital = prompt("Would you like to include CAPITAL letters in your new ultra-secure password? Type in Y or N", "Y");
   console.log(promptAnswer.includes(charCapital))
   while (!promptAnswer.includes(charCapital.toLowerCase())) {
@@ -51,6 +53,7 @@ function criteria () {
       //console.log(charCapital.toLowerCase());
     }
 
+  //Prompt user for length of password, default answer set to 10
   var pwLength = prompt("Finally, how LONG would you like your password to be (How many characters)? Please type in a number greater than 7 and less than 129.", "10");
   console.log(pwLength);
   pwLengthPerm = parseInt(pwLength);
