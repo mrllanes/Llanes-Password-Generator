@@ -69,7 +69,7 @@ function criteria () {
     }
 }
 
-//This function is to create a "possible" password, before it has been checked to see if it meets all the criteria. That will be done in the"generatePassword" function.
+//This function is to create a "possible" password, before it has been checked to see if it meets all the criteria. That will be done in the "generatePassword" function.
 function generatePossiblePassword() {
   var returnValue = "";
   numberSelected = false;
@@ -113,15 +113,12 @@ function generatePassword() {
   return returnValue;
 }
 
-
-
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
@@ -129,5 +126,5 @@ generateBtn.addEventListener("click", writePassword);
 
 resetBtn.addEventListener("click", criteria);
 
-//Calling the function here so the page loads up first, before all the prompts show
+// Calling the function here so the page loads up first, before all the prompts show, when I had this up top, the prompts were showing before the page loaded and it did not look good (in my opinion)
 criteria();
