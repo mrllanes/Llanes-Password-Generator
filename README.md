@@ -26,9 +26,9 @@ The most secure type of password you can get is one that is truely random, where
 The Llanes Password Generator will help you create a password that will definately be reliable and secure. Although 100% security is never a guarantee, this is as close as you can get to it.
 
 See the following images to get an idea of what the Llanes Password Generator looks like:
-![Password Generator](./Assets/images/PW-Gen-0.JPG)
-![Password Generator](./Assets/images/PW-Gen-1.JPG)
-![Password Generator](./Assets/images/PW-Gen-2.JPG)
-![Password Generator](./Assets/images/PW-Gen-3.JPG)
+![PW Gen Image 1](./Assets/Images/PW-Gen-0.JPG)
+![PW Gen Image 2](./Assets/Images/PW-Gen-1.JPG)
+![PW Gen Image 3](./Assets/Images/PW-Gen-2.JPG)
+![PW Gen Image 4](./Assets/Images/PW-Gen-3.JPG)
 
 For more information, please contact Michael Llanes via e-mail: llanesm@gmail.com
