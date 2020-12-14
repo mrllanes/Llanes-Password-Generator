@@ -11,11 +11,11 @@ Examples of requirements:
 
 - Password must require at least one number in it.
 - Password must require at least one special character in it.
-  Examples ` ~ ! @ # $ % ^ & \* ( ) - \_ + = < > ? / \ [ ] { } | : : , .
+  - Examples ` ~ ! @ # $ % ^ & \* ( ) - \_ + = < > ? / \ [ ] { } | : : , .
 - Password must require at least one lower case letter.
 - Password must require at least one upper case letter.
 - Password must require a minimum of 10 characters.
-  \*\* User must change their password every X amount of days.
+- Good Common Practice: User must change their password every X amount of days.
 
 This may seem like a lot to take into consideration, but that is the whole point. It will make your password more secure against those trying to guess it.
 
@@ -24,3 +24,11 @@ This may seem like a lot to take into consideration, but that is the whole point
 The most secure type of password you can get is one that is truely random, where even the user has no idea how the password was created. By using a password generator you can get a password such as "94sC[4|Zc,{t" which might be difficult to remember, but it will also be nearly impossible for someone to crack.
 
 The Llanes Password Generator will help you create a password that will definately be reliable and secure. Although 100% security is never a guarantee, this is as close as you can get to it.
+
+See the following images to get an idea of what the Llanes Password Generator looks like:
+![Password Generator](./Assets/images/PW-Gen-0.JPG)
+![Password Generator](./Assets/images/PW-Gen-1.JPG)
+![Password Generator](./Assets/images/PW-Gen-2.JPG)
+![Password Generator](./Assets/images/PW-Gen-3.JPG)
+
+For more information, please contact Michael Llanes via e-mail: llanesm@gmail.com
