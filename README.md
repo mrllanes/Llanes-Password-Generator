@@ -21,6 +21,8 @@ This may seem like a lot to take into consideration, but that is the whole point
 
 ## Password Generator
 
+https://mrllanes.github.io/Llanes-Password-Generator/
+
 The most secure type of password you can get is one that is truely random, where even the user has no idea how the password was created. By using a password generator you can get a password such as "94sC[4|Zc,{t" which might be difficult to remember, but it will also be nearly impossible for someone to crack.
 
 The Llanes Password Generator will help you create a password that will definately be reliable and secure. Although 100% security is never a guarantee, this is as close as you can get to it.
